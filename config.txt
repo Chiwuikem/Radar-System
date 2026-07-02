@@ -1,0 +1,4 @@
+RadarRange=1000
+InterceptorSpeed=35
+SweepCount=10
+SweepDelaySeconds=1

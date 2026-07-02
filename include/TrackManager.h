@@ -12,6 +12,7 @@ private:
 
 public:
     void updateTracks(const std::vector<Target>& detectedTargets);
+    void removeLostTracks(const std::vector<Target>& detectedTargets);
 
     const std::unordered_map<int, Target>& getActiveTracks() const;
 };
